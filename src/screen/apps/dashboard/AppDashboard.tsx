@@ -6,7 +6,6 @@ import {AppDispatch} from "../../../store/Store";
 import {removeCurrentApp, setCurrentApp} from "../../../store/slices/AppSlice";
 import {useEffect} from "react";
 import {useApp} from "../../../store/providers/AppProvider";
-import app from "../../../App";
 
 export const AppDashboard = () => {
     const dispatch = useDispatch<AppDispatch>();
